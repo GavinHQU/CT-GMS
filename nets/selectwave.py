@@ -7,8 +7,8 @@ from collections import Counter
 
 from utils.utils import dual_reference_conformity
 
-POS = ' '
-NEG = ' '
+POS = 'class_a'
+NEG = 'class_'b
 
 
 def split_pools(paths, pos_pattern=POS, neg_pattern=NEG):
